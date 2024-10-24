@@ -1,9 +1,85 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "formElements": [
+    {
+      "id": "146e69c2-1630-4a27-9d0b-f09e463a66e4",
+      "element": "select",
+      "type": "none",
+      "label": "Sample Label",
+      "options": ["Sample Option 1", "Sample Option 2", "Sample Option 3"],
+      "name": "selectName"
+    },
+    {
+      "id": "0dd63534-5ce3-448a-abd4-0737bc1d7072",
+      "element": "input",
+      "type": "text",
+      "label": "Full name",
+      "placeholder": "Enter name",
+      "name": "fullname",
+      "options": [],
+      "value": "undefined"
+    },
+    {
+      "id": "81ff036f-4e30-4cde-ba71-f2dd8fb413be",
+      "element": "textarea",
+      "type": "none",
+      "label": "Sample Textarea3",
+      "placeholder": "Enter text here 3",
+      "name": "textareaName3"
+    },
+    {
+      "id": "4fb45944-3b45-4b28-983b-733eecb8e47a",
+      "element": "input",
+      "type": "number",
+      "label": "Sample Number Input",
+      "placeholder": "Enter number here",
+      "name": "numberInputName"
+    },
+    {
+      "id": "3d6bbaca-52ff-4025-80be-a77b04645ded",
+      "element": "input",
+      "type": "checkbox",
+      "label": "Sample Checkbox",
+      "placeholder": "",
+      "name": "checkboxName",
+      "value": "checkboxValue"
+    },
+    {
+      "id": "39a3c438-2b58-4465-9a4b-a3f6c760b267",
+      "element": "input",
+      "type": "text",
+      "label": "Sample Text Input",
+      "placeholder": "Enter text here",
+      "name": "textInputName"
+    },
+    {
+      "id": "4a98669a-10d1-48a7-a3fc-04d7b0fd6ccd",
+      "element": "input",
+      "type": "checkbox",
+      "label": "Sample Checkbox",
+      "placeholder": "",
+      "name": "checkboxName",
+      "value": "checkboxValue",
+      "options": []
+    },
+    {
+      "id": "1b13dbed-43f8-4604-86e7-8c685045edca",
+      "element": "input",
+      "type": "number",
+      "label": "Sample Number Input",
+      "placeholder": "Enter number here",
+      "name": "numberInputName",
+      "options": [],
+      "value": null
+    },
+    {
+      "id": "7fb05f65-f35c-466f-8a0e-e25b0707014e",
+      "element": "select",
+      "type": "none",
+      "label": "Sample Select",
+      "options": ["Sample Option 1", "Sample Option 2", "Sample Option 3"],
+      "name": "selectName",
+      "placeholder": null,
+      "value": null
+    }
+  ]
 }
